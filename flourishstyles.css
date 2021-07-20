@@ -1,0 +1,241 @@
+/*flourishstyles.css*/
+
+body{
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    padding: 0;
+}
+
+body.titlePage{background-image: url(Images/1_Title.png)}
+body.levelSelectionA{
+    background-image: url(Images/Background_Flourish.png);}
+body.plantSelectionA{ background-image: url(Images/Background_Flourish.png)}
+
+.titleBlock{
+    text-align: right;
+    margin-bottom: 20%;
+    margin-right: 4%;
+    margin-left: 3%;
+    margin-top: 40px;
+}
+
+.gameSetUp{
+    margin-right: 4%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+
+.title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: medium;
+    color: #346925;
+    text-transform: uppercase;
+    letter-spacing: 45px;
+    font-size: 1200%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    text-align: right;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    color: #360D0D;
+    letter-spacing: 10px;
+    font-size: 300%;
+    margin-right: 3%;
+    margin-top: 10px;
+}
+
+h6{
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #360D0D;
+    font-size: 150%;
+    margin-right: 5%;
+    margin-top: 35px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 3%;
+    font-size: 145%;
+    text-align: right;
+    letter-spacing: 3px;
+    line-height:40px;
+}
+
+.gameSetUpButton a:link {
+    text-align: left;
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: #FAFEFF; 
+    padding: 12px;
+    width: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}
+
+a:visited{
+    color: #346925;
+    background-color: #FaFEFF;
+}
+
+a:hover{
+    color: #FaFEFF;
+    background-color: #346925;
+}
+
+a:active{
+    color: #FaFEFF;
+    background-color: #346925;
+}
+
+.gameSetUpHeader{
+margin-left: 10%;
+margin-top: 60px;
+margin-bottom: 29%;
+margin-right: 10%
+}
+
+.gameSetUpQ{
+    text-align: left;
+    letter-spacing: 3px;
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+    font-weight: normal;
+    
+}
+
+.description{
+    text-align: left;
+    letter-spacing: 1px;
+    color: #360D0D;
+    font-family: 'Open Sans', san-serif;
+    font-size: 175%;
+    font-weight: normal;
+    margin-bottom: 10%;
+}
+
+div.levelPlant{
+    display: flex;
+    justify-content: center;
+}
+
+div.levels{
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    margin: 20px;
+}
+
+div.gameSelector1 img{
+    display: block;
+    position: relative;
+    top: -600px;
+}
+
+div.gameSelector1 p{
+    display: block;
+    position: relative;
+    top: -650px;
+    left: -22%;
+}
+
+.gameSelector2 img{
+    display: block;
+    position: relative;
+    top: -615px;
+    left: 5px;
+}
+
+div.gameSelector2 p{
+    display: block;
+    position: relative;
+    top: -650px;
+    left: -12%;
+}
+
+.gameSelector3 img{
+    display: block;
+    position: relative;
+    top: -630px;
+    right: 10px
+}
+
+div.gameSelector3 p{
+    display: block;
+    position: relative;
+    top: -650px;
+    left: -22%;
+}
+
+p.left a:link{
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 175%;
+    font-weight: bold;
+    background-color: #FAFEFF; 
+    padding: 12px;
+    width: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}
+
+p.middle a:link{
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 175%;
+    font-weight: bold;
+    background-color: #FAFEFF; 
+    padding: 12px;
+    width: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}
+
+p.right a:link{
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 175%;
+    font-weight: bold;
+    background-color: #FAFEFF; 
+    padding: 12px;
+    width: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}
+
+.nextButton a:hover {
+    color: #FaFEFF;
+    background-color: #346925;
+    background-image: url(Images/2b_Select_Level_Flourish.png);
+}
