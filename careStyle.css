@@ -1,0 +1,101 @@
+/*careStyle.css*/
+
+body{
+    background-image: url(ImageFiles/12b_Texture_Flourish.png);
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin-right: 8vw;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-weight: medium;
+    color: #346925;
+    letter-spacing: .25vw;
+    font-size: 4.5vh;
+    margin-bottom: 1vh;
+    margin-left: 8vw;
+    float: left;
+}
+
+img {
+    float: left;
+    width: 100%;
+    max-width: 5vw;
+    margin-top: 1.8vh;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #360D0D;
+    font-size: 2.7vh;
+    letter-spacing: 0.15vw;
+    line-height: 4vh;
+}
+
+.category{
+    float: left;
+    margin-left: 8vw;
+    max-width: 8vw;
+    width: 8vw;
+}
+
+.info{
+    float: left;
+    margin-left: 2vw;
+    max-width: 75vw;
+    width: 75vw;
+}
+
+.endButton{
+    overflow: auto;
+    text-align: right;
+    float: right;
+    position: bottom; 
+    margin-top: 0vh;
+    border-radius: 1.5vh;
+    margin-right: 8vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-right: 3vw;
+}
+
+.endGameButtons a:link {
+    color: #346925;
+    font-family: 'Merriweather', serif;
+    font-size: 3vh;
+    font-weight: normal;
+    background-color: #FAFEFF;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}
+
+    a:visited{
+        color: #346925;
+        background-color: #FaFEFF;
+    }
+    
+    a:hover{
+        color: #FaFEFF;
+        background-color: #346925;
+    }
+    
+    a:active{
+        color: #FaFEFF;
+        background-color: #346925;
+    }
+
+    .inactive{
+        pointer-events: none;
+    }

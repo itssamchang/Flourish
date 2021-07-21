@@ -1,0 +1,105 @@
+body{
+    background-image: url(ImageFiles/0_window.png),url(ImageFiles/0_Background_Flourish.png);
+    margin: 0;
+    background-size: 40vw, cover;
+    background-repeat: no-repeat;
+    background-position: top right, center bottom;
+    width: 100%;
+    padding: 0;
+    margin-right: 4vw;
+}
+
+.plantLabel{
+    position: absolute;
+    top: 6vh;
+    left: 1vw;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    color: #360d0d;
+    font-size: 2vh;
+    letter-spacing: 0.45vh;
+    float: left;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+.plantPic{
+    float: left;
+    width: 43vw;
+}
+
+.plantPNG{
+    max-width: 43vw;
+}
+
+.interactions{
+    margin: 5vw;
+    float: left;
+    background-color: rgba(250, 254, 255, 0.85);
+    border-radius: 4vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 3vh;
+    max-width: 40vw;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}
+
+.boxLabel{
+    font-family: 'Merriweather', serif;
+    color: #346925;
+    font-weight: bold;
+    font-size: 4.5vh;
+    padding-top: -0.3vh;
+    letter-spacing: 0.085vw;
+}
+
+.boxLabelEnd{
+    font-family: 'Merriweather', serif;
+    color: #ac540c;
+    font-weight: bold;
+    font-size: 4.5vh;
+    padding-top: -0.3vh;
+    letter-spacing: 0.085vw;
+}
+
+.boxText{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #626262;
+    font-size: 2.5vh;
+    padding-top: -0.5vh;
+}
+
+.playButtons{
+    margin-top: 4vh;
+    float: none;
+    display: block;
+}
+
+a:link.choiceLink{
+    display: block;
+}
+
+a:hover.choiceLink{
+    background-color: #346925;
+    border-radius: 2vh;
+    color: #FaFEFF;
+}
+
+.choiceButton{
+    display: block;
+    text-align: left;
+    background-color: rgba(193, 217, 153, .39);
+    font-family: 'Merriweather', serif;
+    font-size: 2.5vh;
+    padding: 2vh;
+    border-radius: 2vh;
+    border: 0.2vh solid #360D0D;
+    max-width: 40vw;
+}
+
+a {
+    text-decoration: none;
+    color: #360d0d;
+}
+

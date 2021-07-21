@@ -1,0 +1,222 @@
+/*gameSetUp.css*/
+
+body{
+    background-image: url(ImageFiles/0_Background_Flourish.png);
+    margin: 4vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    padding: 0;
+}
+
+/*page header and paragraph explaining choices*/
+.setUpText{
+    text-align: left;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: 84vw;
+    height: 18vh;
+
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-weight: medium;
+    color: #346925;
+    letter-spacing: .25vw;
+    font-size: 4.5vh;
+    margin-bottom: 2.5vh;
+
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #360D0D;
+    font-size: 3vh;
+    letter-spacing: 0.15vw;
+    line-height: 5vh;
+}
+
+/*game set up images + buttons*/
+.setUp{
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    height: 68vh;
+    margin-right: 6vw;
+}
+
+/*button for level set up*/
+.gameSetUpButton a:link {
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 3vh;
+    font-weight: normal;
+    background-color: #FAFEFF; 
+    padding: 2vh;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 1.5vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}
+
+    a:visited{
+        color: #346925;
+        background-color: #FaFEFF;
+    }
+    
+    a:hover{
+        color: #FaFEFF;
+        background-color: #346925;
+    }
+    
+    a:active{
+        color: #FaFEFF;
+        background-color: #346925;
+    }
+
+
+    img{
+        width: 28vw;
+        margin-left: -.65vw;
+    }
+
+    .leftOption{
+        width: 26vw;
+        float: left;
+        text-align: center;
+        max-width: 28vw;
+        margin-top: 2vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+    .middleOption{
+        width: 26vw;
+        float: left;
+        text-align: center;
+        max-width: 28vw;
+        margin-top: 2vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+    .rightOption{
+        width: 26vw;
+        float: left;
+        text-align: center;
+        max-width: 28vw;
+        margin-top: 2vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+
+/*button for plant choice*/
+.plantButtonActive{
+    background-color: #FAFEFF;  
+    border-radius: 1.5vh;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+    text-align: center;
+}
+
+.plantButton{
+    background-color: #FAFEFF;  
+    border-radius: 1.5vh;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+    text-align: center;
+}
+
+.plantButtonActive a:link {
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 3vh;
+    border-radius: 1vh;
+    font-weight: normal;
+    padding: 2vh;
+    width: 24vw;
+    text-decoration: none;
+    white-space: normal;
+}
+
+.plantButtonActive:hover{
+    color: #FaFEFF;
+    background-color: #346925;
+    padding: 0.1vh;
+    width: 26vw;
+    text-decoration: none;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.plantButton a:link {
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 3vh;
+    font-weight: normal;
+    padding: 2vh;
+    width: 24vw;
+    text-decoration: none;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    white-space: normal;
+}
+
+a:visited{
+    color: #346925;
+    background-color: #FaFEFF;
+}
+
+a:hover{
+    color: #FaFEFF;
+    background-color: #346925;
+}
+
+a:active{
+    color: #FaFEFF;
+    background-color: #346925;
+}
+
+
+    img{
+        width: 28vw;
+        margin-left: -.65vw;
+    }
+
+    .leftOption{
+        width: 26vw;
+        float: left;
+        text-align: center;
+        max-width: 28vw;
+        margin-top: 2vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+    .middleOption{
+        width: 26vw;
+        float: left;
+        text-align: center;
+        max-width: 28vw;
+        margin-top: 2vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+    .rightOption{
+        width: 26vw;
+        float: left;
+        text-align: center;
+        max-width: 28vw;
+        margin-top: 2vh;
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+
+    .inactive{
+        pointer-events: none;
+    }

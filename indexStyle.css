@@ -1,0 +1,125 @@
+/*indexStyle.css*/
+
+/*to do: align created by to button*/
+
+
+body{
+    background-image: url(ImageFiles/0_Background_Flourish.png);
+    margin: 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    padding: 0;
+    margin-right: 4vw;
+}
+
+.titleBlock{
+    text-align: right;
+    margin-bottom: 0vw;
+    margin-right: 4vw;
+}
+
+.title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: medium;
+    color: #346925;
+    text-transform: uppercase;
+    letter-spacing: 3vw;
+    font-size: 20vh;
+    margin-bottom: 2.5vh;
+    margin-top: 8vh;
+}
+
+.subtitle{
+    text-align: right;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    color: #360D0D;
+    letter-spacing: 0.8vw;
+    font-size: 5vh;
+    margin-right: 3vw;
+    margin-top: -1vh;
+}
+
+.titleImage{
+    width: 50vw;
+    max-width: 50vw;
+    margin-left: 4vw;
+    float: left;
+    margin-top: -2vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/*lower text*/
+.letsGrow{
+    width: 39vw;
+    float: right;
+    margin-right:5.8vw;
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+}
+
+.letsGrowText{
+    width: 100% 
+}
+
+.subtext{
+    display: block;
+    margin-right: 1.29vw;
+    text-align: right;
+}
+
+/*button for game set up*/
+.letsGrowButton a:link {
+    color:#346925;
+    font-family: 'Merriweather', serif;
+    font-size: 5vh;
+    font-weight: normal;
+    background-color: #FAFEFF; 
+    padding: 2vh;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 1.5vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 3.1vw;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}
+
+
+    a:visited{
+        color: #346925;
+        background-color: #FaFEFF;
+    }
+    
+    a:hover{
+        color: #FaFEFF;
+        background-color: #346925;
+    }
+    
+    a:active{
+        color: #FaFEFF;
+        background-color: #346925;
+    }
+
+    p{
+        font-family: 'Open Sans', sans-serif;
+        margin-right: 3%;
+        font-size: 145%;
+        text-align: right;
+        letter-spacing: 0.15vw;
+    }
+
+    /*created by note */
+    h6{
+        width: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        color: #360D0D;
+        font-size: 3vh;
+        margin-top: 4.25vh;
+    }
