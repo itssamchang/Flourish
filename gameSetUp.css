@@ -116,16 +116,40 @@ img{
 
 
 /*button for plant choice*/
+.plantButtonActive{
+    background-color: #FAFEFF;  
+    border-radius: 1.5vh;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+    text-align: center;
+}
+
 .plantButton{
     background-color: #FAFEFF;  
     border-radius: 1.5vh;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
     text-align: center;
+}
+
+.plantButtonActive a:link {
+    color:#346925;
+    font-family: 'Merriweather', serif;
     font-size: 3vh;
-    letter-spacing: 0.15vw;
-    line-height: 5vh;
-    display: inline-block;
-    padding: 2vh;
+    border-radius: 1vh;
+    font-weight: normal;
+    padding: 2.15vh;
+    width: 24vw;
+    text-decoration: none;
+    white-space: normal;
+}
+
+.plantButtonActive:hover{
+    color: #FaFEFF;
+    background-color: #346925;
+    padding: 0.1vh;
+    width: 26vw;
+    text-decoration: none;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
 
 .plantButton a:link {
@@ -133,13 +157,12 @@ img{
     font-family: 'Merriweather', serif;
     font-size: 3vh;
     font-weight: normal;
-    width: 100%;
+    padding: 2vh;
+    width: 24vw;
     text-decoration: none;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
     white-space: normal;
-}
-
-.plantLink {
-    width: 100%;
 }
 
 .plantButton a:visited{
