@@ -1,8 +1,5 @@
 /*indexStyle.css*/
 
-/*to do: align created by to button*/
-
-
 body{
     background-image: url(ImageFiles/0_Background_Flourish.png);
     margin: 0;
@@ -22,7 +19,7 @@ body{
 
 .title{
     font-family: 'Fira Sans', sans-serif;
-    font-weight: medium;
+    font-weight: bolder;
     color: #346925;
     text-transform: uppercase;
     letter-spacing: 3vw;
@@ -51,6 +48,10 @@ body{
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+.titleImage img{
+    width: 33vw;
 }
 
 /*lower text*/
@@ -114,7 +115,6 @@ body{
         letter-spacing: 0.15vw;
     }
 
-    /*created by note */
     h6{
         width: 100%;
         font-family: 'Open Sans', sans-serif;
