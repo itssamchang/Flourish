@@ -52,6 +52,10 @@ p{
     width: 75vw;
 }
 
+.bottomButtons{
+    margin-right: 4.5vw;
+}
+
 .endButton{
     overflow: auto;
     text-align: right;
@@ -59,26 +63,9 @@ p{
     position: bottom; 
     margin-top: 0vh;
     border-radius: 1.5vh;
-    margin-right: 8vw;
     padding-top: 2vh;
     padding-bottom: 2vh;
     margin-right: 3vw;
-}
-
-.endGameButtons a:link {
-    color: #346925;
-    font-family: 'Merriweather', serif;
-    font-size: 3vh;
-    font-weight: normal;
-    background-color: #FAFEFF;
-    width: 100%;
-    text-decoration: none;
-    margin-bottom: 5vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
 }
 
     a:visited{
@@ -99,3 +86,19 @@ p{
     .inactive{
         pointer-events: none;
     }
+
+.endGameButtons a:link {
+    color: #346925;
+    font-family: 'Merriweather', serif;
+    font-size: 3vh;
+    font-weight: normal;
+    background-color: #FAFEFF;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
+}

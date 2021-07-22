@@ -9,6 +9,17 @@ body{
     margin-right: 4vw;
 }
 
+body.lowLight{
+    background-image: url(ImageFiles/0_window.png),url(ImageFiles/7a_Dark_Background.png);
+    margin: 0;
+    background-size: 40vw, cover;
+    background-repeat: no-repeat;
+    background-position: top right, center bottom;
+    width: 100%;
+    padding: 0;
+    margin-right: 4vw;
+}
+
 .plantLabel{
     position: absolute;
     top: 6vh;
@@ -103,3 +114,6 @@ a {
     color: #360d0d;
 }
 
+.inactive{
+    pointer-events: none;
+}

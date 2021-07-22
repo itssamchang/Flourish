@@ -1,1 +1,6 @@
 *.png
+node_modules
+package-lock.json
+package.json
+.stylelintrc
+**/.DS_Store

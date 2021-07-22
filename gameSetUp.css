@@ -46,6 +46,21 @@ p{
     margin-right: 6vw;
 }
 
+a:visited{
+    color: #346925;
+    background-color: #FaFEFF;
+}
+
+a:hover{
+    color: #FaFEFF;
+    background-color: #346925;
+}
+
+a:active{
+    color: #FaFEFF;
+    background-color: #346925;
+}
+
 /*button for level set up*/
 .gameSetUpButton a:link {
     color:#346925;
@@ -64,93 +79,53 @@ p{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
 }
 
-    a:visited{
-        color: #346925;
-        background-color: #FaFEFF;
-    }
-    
-    a:hover{
-        color: #FaFEFF;
-        background-color: #346925;
-    }
-    
-    a:active{
-        color: #FaFEFF;
-        background-color: #346925;
-    }
+img{
+    width: 28vw;
+    margin-left: -.65vw;
+}
 
+.leftOption{
+    width: 26vw;
+    float: left;
+    text-align: center;
+    max-width: 28vw;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
 
-    img{
-        width: 28vw;
-        margin-left: -.65vw;
-    }
+.middleOption{
+    width: 26vw;
+    float: left;
+    text-align: center;
+    max-width: 28vw;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
 
-    .leftOption{
-        width: 26vw;
-        float: left;
-        text-align: center;
-        max-width: 28vw;
-        margin-top: 2vh;
-        margin-left: 4vh;
-        margin-right: 4vh;
-    }
-
-    .middleOption{
-        width: 26vw;
-        float: left;
-        text-align: center;
-        max-width: 28vw;
-        margin-top: 2vh;
-        margin-left: 4vh;
-        margin-right: 4vh;
-    }
-
-    .rightOption{
-        width: 26vw;
-        float: left;
-        text-align: center;
-        max-width: 28vw;
-        margin-top: 2vh;
-        margin-left: 4vh;
-        margin-right: 4vh;
-    }
+.rightOption{
+    width: 26vw;
+    float: left;
+    text-align: center;
+    max-width: 28vw;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
 
 
 /*button for plant choice*/
-.plantButtonActive{
-    background-color: #FAFEFF;  
-    border-radius: 1.5vh;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
-    text-align: center;
-}
-
 .plantButton{
     background-color: #FAFEFF;  
     border-radius: 1.5vh;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
     text-align: center;
-}
-
-.plantButtonActive a:link {
-    color:#346925;
-    font-family: 'Merriweather', serif;
     font-size: 3vh;
-    border-radius: 1vh;
-    font-weight: normal;
+    letter-spacing: 0.15vw;
+    line-height: 5vh;
+    display: inline-block;
     padding: 2vh;
-    width: 24vw;
-    text-decoration: none;
-    white-space: normal;
-}
-
-.plantButtonActive:hover{
-    color: #FaFEFF;
-    background-color: #346925;
-    padding: 0.1vh;
-    width: 26vw;
-    text-decoration: none;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
 }
 
 .plantButton a:link {
@@ -158,65 +133,30 @@ p{
     font-family: 'Merriweather', serif;
     font-size: 3vh;
     font-weight: normal;
-    padding: 2vh;
-    width: 24vw;
+    width: 100%;
     text-decoration: none;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
     white-space: normal;
 }
 
-a:visited{
+.plantLink {
+    width: 100%;
+}
+
+.plantButton a:visited{
     color: #346925;
     background-color: #FaFEFF;
 }
 
-a:hover{
+.plantButton a:hover{
     color: #FaFEFF;
     background-color: #346925;
 }
 
-a:active{
+.plantButton a:active{
     color: #FaFEFF;
     background-color: #346925;
 }
 
-
-    img{
-        width: 28vw;
-        margin-left: -.65vw;
-    }
-
-    .leftOption{
-        width: 26vw;
-        float: left;
-        text-align: center;
-        max-width: 28vw;
-        margin-top: 2vh;
-        margin-left: 4vh;
-        margin-right: 4vh;
-    }
-
-    .middleOption{
-        width: 26vw;
-        float: left;
-        text-align: center;
-        max-width: 28vw;
-        margin-top: 2vh;
-        margin-left: 4vh;
-        margin-right: 4vh;
-    }
-
-    .rightOption{
-        width: 26vw;
-        float: left;
-        text-align: center;
-        max-width: 28vw;
-        margin-top: 2vh;
-        margin-left: 4vh;
-        margin-right: 4vh;
-    }
-
-    .inactive{
-        pointer-events: none;
-    }
+.inactive{
+    pointer-events: none;
+}
