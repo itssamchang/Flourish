@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(ImageFiles/0_window.png),url(ImageFiles/0_Background_Flourish.png);
     margin: 0;
     background-size: 40vw, cover;
@@ -9,7 +9,7 @@ body{
     margin-right: 4vw;
 }
 
-body.lowLight{
+body.lowLight {
     background-image: url(ImageFiles/0_window.png),url(ImageFiles/7a_Dark_Background.png);
     margin: 0;
     background-size: 40vw, cover;
@@ -20,7 +20,7 @@ body.lowLight{
     margin-right: 4vw;
 }
 
-.plantLabel{
+.plantLabel {
     position: absolute;
     top: 6vh;
     left: 1vw;
@@ -34,16 +34,16 @@ body.lowLight{
     transform: rotate(-180deg);
 }
 
-.plantPic{
+.plantPic {
     float: left;
     width: 43vw;
 }
 
-.plantPNG{
+.plantPNG {
     max-width: 43vw;
 }
 
-.interactions{
+.interactions {
     margin: 5vw;
     float: left;
     background-color: rgba(250, 254, 255, 0.85);
@@ -55,7 +55,7 @@ body.lowLight{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, .16);
 }
 
-.boxLabel{
+.boxLabel {
     font-family: 'Merriweather', serif;
     color: #346925;
     font-weight: bold;
@@ -64,7 +64,7 @@ body.lowLight{
     letter-spacing: 0.085vw;
 }
 
-.boxLabelEnd{
+.boxLabelEnd {
     font-family: 'Merriweather', serif;
     color: #ac540c;
     font-weight: bold;
@@ -73,7 +73,7 @@ body.lowLight{
     letter-spacing: 0.085vw;
 }
 
-.boxText{
+.boxText {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     color: #626262;
@@ -81,23 +81,23 @@ body.lowLight{
     padding-top: -0.5vh;
 }
 
-.playButtons{
+.playButtons {
     margin-top: 4vh;
     float: none;
     display: block;
 }
 
-a:link.choiceLink{
+a:link.choiceLink {
     display: block;
 }
 
-a:hover.choiceLink{
+a:hover.choiceLink {
     background-color: #346925;
     border-radius: 2vh;
     color: #FaFEFF;
 }
 
-.choiceButton{
+.choiceButton {
     display: block;
     text-align: left;
     background-color: rgba(193, 217, 153, .39);
@@ -114,6 +114,6 @@ a {
     color: #360d0d;
 }
 
-.inactive{
+.inactive {
     pointer-events: none;
 }

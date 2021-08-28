@@ -1,6 +1,6 @@
 /*careStyle.css*/
 
-body{
+body {
     background-image: url(ImageFiles/12b_Texture_Flourish.png);
     margin: 0;
     background-size: cover;
@@ -12,7 +12,7 @@ body{
     margin-right: 8vw;
 }
 
-h1{
+h1 {
     font-family: 'Merriweather', serif;
     font-weight: medium;
     color: #346925;
@@ -30,7 +30,7 @@ img {
     margin-top: 1.8vh;
 }
 
-p{
+p {
     font-family: 'Open Sans', sans-serif;
     color: #360D0D;
     font-size: 2.7vh;
@@ -38,25 +38,25 @@ p{
     line-height: 4vh;
 }
 
-.category{
+.category {
     float: left;
     margin-left: 8vw;
     max-width: 8vw;
     width: 8vw;
 }
 
-.info{
+.info {
     float: left;
     margin-left: 2vw;
     max-width: 75vw;
     width: 75vw;
 }
 
-.bottomButtons{
+.bottomButtons {
     margin-right: 4.5vw;
 }
 
-.endButton{
+.endButton {
     overflow: auto;
     text-align: right;
     float: right;
@@ -68,22 +68,22 @@ p{
     margin-right: 3vw;
 }
 
-    a:visited{
+    a:visited {
         color: #346925;
         background-color: #FaFEFF;
     }
     
-    a:hover{
+    a:hover {
         color: #FaFEFF;
         background-color: #346925;
     }
     
-    a:active{
+    a:active {
         color: #FaFEFF;
         background-color: #346925;
     }
 
-    .inactive{
+    .inactive {
         pointer-events: none;
     }
 
